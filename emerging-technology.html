@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emerging Technology | Aritzia Austin</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #F3EFE7;
+      color: #1C1C1C;
+      font-family: Inter, Arial, sans-serif;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      padding: 18px 30px;
+      background: #F3EFE7;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 14px 28px;
+      font-size: 14px;
+    }
+
+    a { color: inherit; }
+    nav a { text-decoration: none; }
+    nav a[aria-current="page"] { text-decoration: underline; }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 36px;
+    }
+
+    .intro { padding: 80px 0 56px; }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 {
+      font-family: "DM Sans", Arial, sans-serif;
+      font-weight: 500;
+      letter-spacing: -.04em;
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-size: clamp(40px, 6vw, 72px);
+      line-height: 1.04;
+    }
+
+    h2 {
+      margin: 0 0 20px;
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.12;
+    }
+
+    h3 {
+      margin: 28px 0 10px;
+      font-size: 22px;
+    }
+
+    p {
+      margin: 0 0 16px;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    .intro p:last-child { max-width: 760px; }
+
+    .reel-section {
+      padding: 56px 0 72px;
+      border-top: 1px solid #A58B72;
+    }
+
+    .reel-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 360px) minmax(0, 1fr);
+      gap: 56px;
+      align-items: start;
+    }
+
+    video {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 9 / 16;
+      background: #D2CBC1;
+    }
+
+    .caption {
+      margin-top: 12px;
+      font-size: 13px;
+    }
+
+    .process {
+      padding: 72px 0;
+      background: #EAE4D9;
+    }
+
+    .process-copy { max-width: 800px; }
+
+    details {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid #A58B72;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    blockquote {
+      margin: 20px 0 0;
+      padding-left: 20px;
+      border-left: 2px solid #A58B72;
+    }
+
+    .reflection { padding: 72px 0; }
+
+    .finish {
+      padding: 44px 25px;
+      background: #73745F;
+      color: #F3EFE7;
+      text-align: center;
+    }
+
+    .finish p {
+      margin: 0;
+      font-family: "DM Sans", Arial, sans-serif;
+      font-size: clamp(22px, 3vw, 34px);
+    }
+
+    @media (max-width: 760px) {
+      .wrap { padding: 0 26px; }
+      .intro { padding: 48px 0 36px; }
+      .reel-layout { grid-template-columns: 1fr; gap: 32px; }
+      video { max-width: 360px; margin: 0 auto; }
+      .reel-section, .process, .reflection { padding: 48px 0; }
+      nav { padding: 16px 20px; gap: 12px 20px; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="campaign.html">Campaign</a>
+    <a href="research.html">Research</a>
+    <a href="Aritzia_Austin_Final_Campaign_Gallery_Embed%20(7).html">Campaign Visuals + Content</a>
+    <a href="emerging-technology.html" aria-current="page">Emerging Technology</a>
+  </nav>
+
+  <main>
+    <header class="intro">
+      <div class="wrap">
+        <p class="eyebrow">Aritzia Austin / Emerging Technology</p>
+        <h1>Styled in motion.</h1>
+        <p>I used Luma Dream Machine to turn an existing campaign image into a short vertical fashion Reel. The goal was to bring the Off-Duty side of Styled for Every Side into motion while keeping the campaign’s look and message consistent.</p>
+      </div>
+    </header>
+
+    <section class="reel-section" aria-labelledby="reel-title">
+      <div class="wrap reel-layout">
+        <div>
+          <video controls playsinline preload="metadata"
+            aria-label="Final Aritzia Austin fashion Reel with voiceover and music">
+            <source src="Aritzia-Austin-reel.mp4" type="video/mp4">
+            Your browser does not support this video.
+            <a href="Aritzia-Austin-reel.mp4">Watch the final Reel.</a>
+          </video>
+          <p class="caption">Final Reel / AI-generated motion and voiceover, directed through my revisions.</p>
+        </div>
+
+        <div>
+          <p class="eyebrow">Off-Duty / Instagram Reel</p>
+          <h2>The campaign, in motion.</h2>
+          <p>Sage activewear, a cream jacket, and warm architectural surroundings carry the same visual direction as my campaign images. The walking sequence adds movement to an everyday styling moment.</p>
+          <p>The voiceover connects the Reel to the Austin concept: “Austin has range. So do you.” The closing tagline brings it back to the central message: “One city. Every side of your style.”</p>
+
+          <h3>How I would use it</h3>
+          <p>This Reel is a proposed Instagram asset for the six-week Austin campaign. It would sit alongside the Campus, Career, Off-Duty, and Social content, giving the campaign a motion format while keeping the same styling themes.</p>
+          <p>Its intended role is to support awareness and engagement. It has not been published or tested as a live campaign, so I am presenting its application rather than claiming performance results.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="process-copy">
+          <p class="eyebrow">Luma Dream Machine / Creative workflow</p>
+          <h2 id="process-title">From still to Reel.</h2>
+
+          <h3>01 / Start with the campaign image</h3>
+          <p>I began with one of my existing Aritzia Austin campaign images. I asked Luma to animate a natural walk and add movement to the hair and clothes while keeping the original outfit and setting.</p>
+
+          <h3>02 / Review and reframe</h3>
+          <p>The first animation surprised me with its realism. I liked that it preserved the overall look, but generation felt slow for such a short clip. As a first-time user, I was also learning how much detail my prompts needed.</p>
+          <p>I then asked for an Instagram Reel format that kept the model as the main focus and maintained the same visual direction. The sequence was reframed vertically and extended.</p>
+
+          <h3>03 / Shape the voice</h3>
+          <p>I requested an AI voiceover, then revised it because the first voice sounded too much like a commercial. I asked for a younger, more natural delivery that was confident and polished but casual. I chose the accented version and asked for it to be added to the extended Reel.</p>
+
+          <h3>04 / Refine the finish</h3>
+          <p>I requested background music beneath the voiceover and the campaign tagline near the end. I then asked to move the tagline from a blank background onto the actual footage.</p>
+          <p>I requested DM Sans to match my website. When the font file was not supported, I chose the closest clean, modern font and kept the tagline over the video.</p>
+
+          <h3>05 / Save the workflow</h3>
+          <p>I selected Luma’s suggested options to save the animation, vertical reframe, extension, voiceover, music, and tagline treatment as a reusable workflow. I kept it private on my board.</p>
+
+          <details>
+            <summary>Read selected prompts from my process</summary>
+
+            <h3>Adapt the format</h3>
+            <blockquote>
+              <p>“Yes, can you make this work better for an Instagram Reel? Keep the girl as the main focus and keep the same overall look.”</p>
+            </blockquote>
+
+            <h3>Revise the voice</h3>
+            <blockquote>
+              <p>“I don't love this voice. It sounds a little too much like a commercial or AI voice. Can you make it sound younger and more natural, like someone you would actually hear in an Instagram fashion Reel? Keep it confident and polished but more casual.”</p>
+            </blockquote>
+
+            <h3>Keep the campaign treatment</h3>
+            <blockquote>
+              <p>“It says the DM Sans .ttf file is not supported. Just use the closest clean modern font instead. Keep the tagline over the actual video near the end and keep the music under the voiceover.”</p>
+            </blockquote>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="reflection" aria-labelledby="reflection-title">
+      <div class="wrap">
+        <div class="process-copy">
+          <p class="eyebrow">Creative direction / Reflection</p>
+          <h2 id="reflection-title">What I learned.</h2>
+          <p>AI helped me develop a motion asset from a still image, but the first result was only a starting point. My revisions shaped the format, voice, music, and closing treatment so the Reel felt connected to the campaign.</p>
+          <p>The process also involved practical compromises: generation took time, the first voice needed revision, and my preferred font was not supported. Keeping a consistent look required reviewing the outputs and making specific choices.</p>
+
+          <h3>My role</h3>
+          <p>Luma generated and assembled the media. I chose the starting image, directed the revisions, selected the voice, and decided how the finished Reel should connect to Styled for Every Side.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="finish">
+      <p>One city. Every side of your style.</p>
+    </footer>
+  </main>
+</body>
+</html>
